@@ -33,7 +33,7 @@ const Header = () => {
     };
 
     const logout = ()=>{
-       window.location.href = 'http://localhost:3400/login'
+      navigate('/login')
     }
 
 

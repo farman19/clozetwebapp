@@ -6,7 +6,7 @@ import Login from './components/login/login';
 
 import SignUp from './components/signUp/signUp';
 
-import { Routes , Route, BrowserRouter} from 'react-router-dom'
+import {  BrowserRouter} from 'react-router-dom'
 import {ToastContainer} from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css"
 import Home from './pages/home/home';
@@ -37,7 +37,7 @@ import Home from './pages/home/home';
 
 
 function App() {
-  const path = window.location.pathname;
+ 
   
   return (
     <>
@@ -47,9 +47,7 @@ function App() {
    
   <Home/>
     
-    {
-      path==='/login' && <Login/>
-    }
+   
       
        <ToastContainer/>
       
